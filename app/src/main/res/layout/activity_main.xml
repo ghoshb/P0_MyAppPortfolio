@@ -15,8 +15,8 @@
         android:layout_alignParentBottom="false"
         android:layout_alignWithParentIfMissing="false"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="12dp"
         android:layout_marginBottom="48dp"
+        android:layout_marginTop="12dp"
         android:text="@string/heading"
         android:textSize="24sp" />
 
@@ -29,8 +29,9 @@
         android:layout_marginBottom="6dp"
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
-        android:text="@string/media_streamer"
-        android:background="#FF9800"/>
+        android:background="#FF9800"
+        android:onClick="onClickMediaStreamer"
+        android:text="@string/media_streamer" />
 
     <Button
         android:id="@+id/button_super_duo1"
@@ -41,8 +42,9 @@
         android:layout_marginBottom="6dp"
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
-        android:text="@string/super_duo1"
-        android:background="#F08C35"/>
+        android:background="#F08C35"
+        android:onClick="onClickSuperDuo1"
+        android:text="@string/super_duo1" />
 
     <Button
         android:id="@+id/button_super_duo2"
@@ -53,8 +55,9 @@
         android:layout_marginBottom="6dp"
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
-        android:text="@string/super_duo2"
-        android:background="#F08C35"/>
+        android:background="#F08C35"
+        android:onClick="onClickSuperDuo2"
+        android:text="@string/super_duo2" />
 
     <Button
         android:id="@+id/button_ant_terminator"
@@ -65,8 +68,9 @@
         android:layout_marginBottom="6dp"
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
-        android:text="@string/ant_terminator"
-        android:background="#FF9800"/>
+        android:background="#FF9800"
+        android:onClick="onClickAntTerminator"
+        android:text="@string/ant_terminator" />
 
     <Button
         android:id="@+id/button_materialize"
@@ -77,8 +81,9 @@
         android:layout_marginBottom="6dp"
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
-        android:text="@string/materialize"
-        android:background="#F08C35"/>
+        android:background="#F08C35"
+        android:onClick="onClickMaterialize"
+        android:text="@string/materialize" />
 
     <Button
         android:id="@+id/button_capstone"
@@ -89,7 +94,8 @@
         android:layout_marginBottom="6dp"
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
-        android:text="@string/capstone"
         android:background="#E91E63"
-        android:textColor="@android:color/white"/>
+        android:onClick="onClickCapstone"
+        android:text="@string/capstone"
+        android:textColor="@android:color/white" />
 </RelativeLayout>
